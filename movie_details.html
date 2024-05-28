@@ -1,0 +1,110 @@
+<html>
+<head>
+<style>
+h1{color:red;
+}
+th{
+
+    color:yellow;
+}
+h2{
+    color:black;
+}
+p{
+    color:red;
+}
+body{
+background-color:black;}
+.movie{
+background-color:red;
+color:black;}
+.link{
+background-color:grey;}
+</style>
+</head>
+<body>
+<div class="movie">
+<h2><center>MOVIE CATALOG</center></h2></div>
+<HR>
+
+<div class="between" border=2x>
+<table  cellspacing=20>
+<th>ABOUT</th>
+<th>CONTACT</th>
+<th>TITLE</th>
+</table>
+</div>
+
+<div class="movie-details">
+ <h1>Movie Title</h1>
+ <img src="C:\Users\Abdul\Downloads\movie1.jpg" alt="Movie Poster">
+ <p>Synopsis:</p>
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+ <p>Genre: Action</p>
+ <p>Director: John Doe</p>
+ <p>Cast: Actor 1, Actor 2, Actor 3</p>
+ <p>Rating: 8.5/10</p>
+</div>
+<div class="movie-details">
+ <h1>Movie Title</h1>
+ <img src="C:\Users\Abdul\Downloads\movie2.jpg" alt="Movie Poster">
+ <p>Synopsis:</p>
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+ <p>Genre: Action</p>
+ <p>Director: John Doe</p>
+ <p>Cast: Actor 1, Actor 2, Actor 3</p>
+ <p>Rating: 8.5/10</p>
+</div>
+<div class="movie-details">
+ <h1>Movie Title</h1>
+ <img src="C:\Users\Abdul\Downloads\movie3.jpg" alt="Movie Poster">
+ <p>Synopsis:</p>
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+ <p>Genre: Action</p>
+ <p>Director: John Doe</p>
+ <p>Cast: Actor 1, Actor 2, Actor 3</p>
+ <p>Rating: 8.5/10</p>
+</div>
+<h1>Movie Title</h1>
+<img src="C:\Users\Abdul\Downloads\movie4.jpg" alt="Movie Poster">
+
+ <p>Synopsis:</p>
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+ <p>Genre: Action</p>
+ <p>Director: John Doe</p>
+ <p>Cast: Actor 1, Actor 2, Actor 3</p>
+ <p>Rating: 8.5/10</p>
+</div>
+<div class="movie-details">
+ <h1>Movie Title</h1>
+ <img src="C:\Users\Abdul\Downloads\movie5.jpg" alt="Movie Poster">
+ <p>Synopsis:</p>
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+ <p>Genre: Action</p>
+ <p>Director: John Doe</p>
+ <p>Cast: Actor 1, Actor 2, Actor 3</p>
+ <p>Rating: 8.5/10</p>
+</div>
+<hr>
+<div class="link">
+<h2><a href="movie-details.html>Movie Details</a></h2>
+</div>
+<script>
+<input type="text" id="search-input" placeholder="Search movies">
+<select id="genre-filter">
+ <option value="">All Genres</option>
+ <!-- Populate genre options dynamically -->
+</select>
+<button onclick="searchMovies()">Search</button>
+
+function searchMovies() {
+ const searchTerm = document.getElementById("search-input").value;
+ const selectedGenre = document.getElementById("genre-filter").value;
+ // Perform search operation and update movie grid
+}
+
+</script>
+
+
+</body>
+</html>
